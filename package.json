@@ -1,10 +1,13 @@
 {
   "name": "zero-complaints-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "The solution to all your OSS problems.",
   "author": "Roald Hacquebord <roald@zielma.kr> (zero-complaints.zielma.kr)",
   "license": "ISC",
-  "repository": "https://github.com/afroald/zero-complaints-bot.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afroald/zero-complaints-bot.git"
+  },
   "scripts": {
     "start": "probot run ./index.js",
     "test": "jest && standard"
@@ -25,5 +28,10 @@
     "env": [
       "jest"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/afroald/zero-complaints-bot/issues"
+  },
+  "homepage": "https://github.com/afroald/zero-complaints-bot#readme",
+  "main": "index.js"
 }
