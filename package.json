@@ -2,7 +2,7 @@
   "name": "zero-complaints-bot",
   "version": "1.0.0",
   "description": "The solution to all your OSS problems.",
-  "author": "Roald Hacquebord <roald@zielma.kr> (zero-complaints.zielma.kr)",
+  "author": "Roald Hacquebord <roald@zielma.kr>",
   "license": "ISC",
   "repository": {
     "type": "git",
